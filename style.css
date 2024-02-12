@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;     
+}
+
+body{
+    background-image: url(https://www.bu.edu/files/2022/02/feat-iStock-1186052670.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    height:70vh ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.card{
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px
+}
+
+.card-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+.card-text{
+    width: 100%;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 10px;
+}
+
+.card-btn{
+    display: flex;
+    align-items: center;
+    gap: 100px;;
+}
+
+
+.btn{
+    padding: 3px 9px 3px 9px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 25px;
+    border: none;
+}
+
+.confirm{
+    width: 150px;
+    height: 70px;
+    background-color: green;
+}
+
+.nope{
+    background-color: red;
+}
+
+
+.firstno{
+    width: 180px;
+    height: 80px;
+    background-color: green;
+    font-size: 25px;
+}
+
+.secondno{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    font-size: 25px;
+}
+
+.threeno{
+    width: 230px;
+    height: 130px;
+    background-color: green;
+    font-size: 25px;
+}
+
+.fourno{
+    width: 260px;
+    height: 160px;
+    background-color: green;
+    font-size: 25px;
+}
+
+.fiveno{
+    width: 370px;
+    height: 200px;
+    background-color: green;
+    font-size: 25px;
+}
+
+.sixno{
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    font-size: 25px;
+}
+
+
+.okok{
+    display: none;
+}
+
+
+/* fist page end  */
+
+@media screen and (max-width: 500px) {
+    .card-btn{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card{
+        width: 500px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px
+    }
+
+    section{
+        height: 110vh;
+        align-items: center;
+    }
+}
+
+
+.video{
+    display: none;
+}
+
+.after{
+    width: 405px;
+    height:505px;
+    display: block;
+}
+
+.none{
+    
+    display: none;
+}
+
+
+.new-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/948/847/original/brown-aesthetic-abstract-minimal-background-perfect-for-wallpaper-backdrop-postcard-background-vector.jpg);
+    background-size: cover;
+}
+
+
+
+.h1{
+    color: wheat;
+}
+
+.p{
+    color: wheat;
+}
